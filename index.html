@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid black;
+            box-shadow: 2px 2px 1px brown;
+            background-color: bisque;
+        }
+        input[type=text],
+        input[type=email],
+        input[type=password] {
+            width: 100%;
+            border: 2px solid blue;
+            box-shadow: 2px 2px 3px red;
+            box-sizing: border-box;
+        }
+        input:focus{
+            background-color: blueviolet;
+        }
+        button{
+            color: aqua;
+            background-color: green;
+            border: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #mydiv{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a:link{
+            color: green;
+        }
+        a:hover{
+            color: red;
+            font-size: 45px;
+            text-decoration: underline;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div class="container">
+            <label>Username</label>
+            <input type="text" name="uname" required placeholder="Enter your name"><br>
+            <label> email </label><br>
+            <input type="email" name="email" required placeholder="Enter Your Email">
+            <br>
+            <label>Password</label>
+            <input type="password" name="pass" required placeholder="****">
+            <button type="submit">Sign in</button>
+        </div>
+    </form>
+    <h1>A Gift From the Developer</h1>
+    <div id="mydiv">
+        <p>Because I am a very kind guy I have provided you a link to access YOUTUBE. And the reason for that is that I know you become tired and bored just looking at my page. ENJOY.</p>
+    </div>
+    <div id="first-div">
+        <a href="https://youtube.com/">YOUTUBE</a>
+    </div>
+</body>
+</html>
